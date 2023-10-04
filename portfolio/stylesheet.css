@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: black;
+}
+
+.headermenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo {
+    height: auto;
+    width: 400px;
+    object-fit: contain;
+    
+}
+
+.menubuttons {
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.menubtn {
+    border: none;
+    text-decoration: none;
+    color: white;
+    background: none;
+    padding: 10px;
+    font-family: 'Cormorant', serif;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 1.2rem;
+}
