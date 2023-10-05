@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -38,4 +39,55 @@ body {
     font-family: 'Cormorant', serif;
     font-family: 'UnifrakturCook', cursive;
     font-size: 1.2rem;
+}
+
+.herocontainer {
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+    align-items: center;
+    
+}
+.heroimage {
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    border: 3px solid white;
+
+}
+.heroimage img {
+    object-fit: scale-down;
+    height: auto;
+    width: 294px
+
+}
+.herotext {
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    border: 3px solid white;
+}
+
+.footercontainer {
+    background-color: green;
+    /* without specifics height will be the height of the biggest content (see header) */
+    height: 10vh;
+    width: auto;
+    display: flex;
+}
+
+.footertextcontainer {
+    background: orange;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerlinkscontainer {
+    background-color: purple;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
